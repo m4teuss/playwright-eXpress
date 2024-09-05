@@ -6,6 +6,6 @@ Commands:
 - npx playwright test --headed // abrir browser
 - npx playwright show-report  // resultado
 - npx playwright test --debug // debug 
-
+- npx playwright test tasks --debug // rodar um arquivo especifico "tasks"
 
 

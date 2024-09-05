@@ -9,3 +9,8 @@
 
     // mapeando elemento pela propriedade classe (Expressão regular usando asterisco)
     // await page.fill('input[class*="InputNewTask"]', 'Ler um livro de JS')
+
+    // mapeando elemento pela propriedade type
+    await page.fill('input[type=text]', 'Ler um livro de JS')
+
+    

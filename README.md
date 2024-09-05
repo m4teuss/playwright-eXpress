@@ -1,5 +1,9 @@
 # playwright-eXpress
 
-teste
+Commands:
+
+- npx playwright test  // via terminal
+- npx playwright test --headed // abrir browser
+- npx playwright show-report  // resultado
 
 

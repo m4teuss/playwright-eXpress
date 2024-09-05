@@ -6,8 +6,5 @@ test('webapp deve estar online', async ({page}) => {
 
     // validando titulo
     await expect(page).toHaveTitle('Gerencie suas tarefas com Mark L')
-
-    // esperando 3s
-    await page.waitForTimeout(3000)
 })
 

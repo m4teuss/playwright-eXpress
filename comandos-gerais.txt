@@ -13,4 +13,11 @@
     // mapeando elemento pela propriedade type
     await page.fill('input[type=text]', 'Ler um livro de JS')
 
-    
+    // mapeando elemento pela propriedade class usando expressão regular
+    //await page.fill(InputNewTask, 'Ler um livro de JS')
+
+    // simulando o click 
+    await InputNewTask.press('Enter')
+
+    // mapeando pelo xpath
+    // await page.click('xpath=//button[contains(text(), "Create")]')

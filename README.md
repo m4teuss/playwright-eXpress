@@ -7,6 +7,5 @@ Commands:
 - npx playwright show-report  // resultado
 - npx playwright test --debug // debug 
 
-- teste
 
 
